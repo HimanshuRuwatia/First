@@ -3,22 +3,39 @@
 <head>
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewpb1.ort" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="container-fluid"><
-  <h1>THree equal width columns</h1>
+<div class="container-fluid">
+  <h1>Three equal width columns</h1>
   <p>Try to add a fourth column</p>
   <div class="row">
-      <div class="col" style="background-color:lavender;">.col</div>
-      <div class="col" style="background-color:orange;">.col</div>
-      <div class="col" style="background-color:green;">.col</div>
-      <div class="col" style="background-color:blue;">.col</div>
+      <div class="col-sm-3" style="background-color:lavender;">.col</div>
+      <div class="col-sm-3" style="background-color:orange;">.col</div>
+      <div class="col-sm-3" style="background-color:green;">.col</div>
+      <div class="col-sm-3" style="background-color:blue;">.col</div>
   </div> 
+  <div class="container">
+      <h1 class="display-1">Display 1<small> <mark>Hello</mark>Small</small></h1>
+      <h1 class="display-2">Display 2<small> <mark>Hello</mark>Small</small></h1>
+      <h1 class="display-3">Display 3<small> <mark>Hello</mark>Small</small></h1>
+      <h1 class="display-4">Display 4<small> <mark>Hello</mark>Small</small></h1>
+  </div>
+  <div class="container">
+      <h1><abbr title="Hello">Hello</abbr></h1>
+      <blockquote class="blockquote">
+          <p>For 50 years, WWF has been protecting the future of nature. 
+             The world's leading conservation organization, WWF works in 100 countries 
+             and is supported by 1.2 million members in the United States and 
+             close to 5 million globally.
+          </p>
+          <footer class="blockquote-footer">From WWF's website</footer>
+      </blockquote>
+  </div>
 </div>
 </body>
 </html>
